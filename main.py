@@ -14,8 +14,9 @@ from pathlib import Path
 OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
 LINE = (
-    "Every night the baby monitor caught a woman singing my daughter "
-    "to sleep in my own voice, and last night she sang along."
+    "Every night, the baby monitor caught a woman singing my daughter "
+    "to sleep in my voice; last night I stayed in the room \u2014 and the "
+    "singing came from under her tongue."
 )
 
 Path(OUTPUT_DIR, "entry.txt").write_text(LINE, encoding="utf-8")
